@@ -3,9 +3,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 export default function GallerySection() {
   const contentImages = [
-    "/fitssence-page/images/hero/1.jpg",
-    "/fitssence-page/images/hero/2.jpg",
-    "/fitssence-page/images/hero/3.jpg",
+    "/fitssence-page/images/galeria/1.jpg",
+    "/fitssence-page/images/galeria/2.jpg",
+    "/fitssence-page/images/galeria/3.jpg",
 
   ]
 
