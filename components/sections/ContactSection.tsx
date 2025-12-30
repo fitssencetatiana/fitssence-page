@@ -80,10 +80,6 @@ Mensaje: ${formData.message}`
 
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(simpleMessage)}`
 
-    // Debug: mostrar en consola para verificar
-    console.log("Mensaje simple:", simpleMessage)
-    console.log("URL:", whatsappUrl)
-
     // Simular delay para mejor UX
     await new Promise((resolve) => setTimeout(resolve, 2000))
 

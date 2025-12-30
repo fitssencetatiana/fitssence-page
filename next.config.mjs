@@ -10,6 +10,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: "export",
+  basePath: "/fitssence-page",
+  assetPrefix: "/fitssence-page",
 }
 
 export default nextConfig

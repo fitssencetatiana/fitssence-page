@@ -11,14 +11,14 @@ export default function HeroSection() {
 
   const heroImages = isMobile
     ? [
-      "/images/hero/1.jpg",
-      "/images/hero/2.jpg",
-      "/images/hero/3.jpg",
+      "/fitssence-page/images/hero/1.jpg",
+      "/fitssence-page/images/hero/2.jpg",
+      "/fitssence-page/images/hero/3.jpg",
     ]
     : [
-      "/images/hero/1Full.jpg",
-      "/images/hero/2Full.jpg",
-      "/images/hero/3Full.jpg",
+      "/fitssence-page/images/hero/1Full.jpg",
+      "/fitssence-page/images/hero/2Full.jpg",
+      "/fitssence-page/images/hero/3Full.jpg",
     ]
 
   // Auto-cambio de slides cada 5 segundos

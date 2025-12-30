@@ -20,7 +20,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src="/images/logo.png" alt="FITSSENCE Logo" className="w-14 h-14 rounded-full object-cover" />
+            <img src="/fitssence-page/images/logo.png" alt="FITSSENCE Logo" className="w-14 h-14 rounded-full object-cover" />
             <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent drop-shadow-lg">
               FITSSENCE
             </div>
