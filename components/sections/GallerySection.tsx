@@ -6,21 +6,14 @@ export default function GallerySection() {
     "/fitssence-page/images/hero/1.jpg",
     "/fitssence-page/images/hero/2.jpg",
     "/fitssence-page/images/hero/3.jpg",
-    "/fitssence-page/images/hero/1Full.jpg",
-    "/fitssence-page/images/hero/2Full.jpg",
-    "/fitssence-page/images/hero/3Full.jpg",
-    "/fitssence-page/images/sobreMi/aboutTatiana.jpg",
+
   ]
 
   const contentLinks = [
-    "https://instagram.com/", // ejemplo
-    "https://tiktok.com/",
-    "https://instagram.com/",
-    "https://tiktok.com/",
-    "https://instagram.com/",
-    "https://tiktok.com/",
-    "https://instagram.com/",
-    "https://tiktok.com/",
+    "https://vt.tiktok.com/ZS5FrGLU9/",
+    "https://vt.tiktok.com/ZS5FrGLU9/",
+    "https://www.tiktok.com/@karentatiana_gr/photo/7515119419387825413?_r=1&_t=ZS-92dro5DUF2S",
+
   ]
 
   const [current, setCurrent] = useState(0)

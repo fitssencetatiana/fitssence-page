@@ -18,12 +18,17 @@ export default function Header() {
     <nav className="fixed top-0 w-full z-50 bg-gradient-to-r from-cyan-900/70 to-purple-900/70 backdrop-blur-xl border-b-2 border-cyan-400/40 shadow-xl animate-fade-in">
       <div className="container mx-auto px-6 py-2">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center space-x-3">
+          {/* Logo y Título Desktop */}
+          <div className="flex items-center space-x-3 relative z-10">
             <img src="/fitssence-page/images/Logo.png" alt="FITSSENCE Logo" className="w-14 h-14 rounded-full object-cover" />
-            <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent drop-shadow-lg">
+            <div className="hidden md:block text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent drop-shadow-lg">
               FITSSENCE
             </div>
+          </div>
+
+          {/* Título centrado (SOLO MÓVIL) */}
+          <div className="md:hidden absolute left-1/2 transform -translate-x-1/2 text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent drop-shadow-lg whitespace-nowrap">
+            FITSSENCE
           </div>
 
           {/* Desktop Menu */}
