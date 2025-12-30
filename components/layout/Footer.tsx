@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <img src="/fitssence-page/images/logo.png" alt="AIA SYNERGY Logo" className="w-10 h-10 rounded-full object-cover" />
+            <img src="/fitssence-page/images/Logo.png" alt="AIA SYNERGY Logo" className="w-10 h-10 rounded-full object-cover" />
             <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               FITSSENCE
             </div>
