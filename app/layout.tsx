@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'FITSSENCE',
+  title: 'FITSSENCE By Kfit',
   description: 'Entrenamiento personalizado y bienestar integral con Tatiana',
   generator: 'v0.dev',
   icons: {
