@@ -13,7 +13,7 @@ export default function AboutSection() {
             <Card className="bg-gradient-to-br from-cyan-400/20 to-purple-500/20 border-cyan-400/30 backdrop-blur-sm">
               <CardContent className="p-0">
                 <img
-                  src=" /images/sobreMi/aboutTatiana.jpg"
+                  src="/fitssence-page/images/sobreMi/aboutTatiana.jpg"
                   alt="TatianaSobreMi"
                   className="w-full h-80 md:h-96 object-cover rounded-lg"
                 />
